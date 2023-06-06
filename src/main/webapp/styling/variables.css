@@ -1,0 +1,11 @@
+:root{
+    --primary-black:000000;
+    --secondary-black:232931;
+    --primary-Orange:FFA500;
+    --secondary-Orange:F6A596;
+    --primary-text-color:#fff;
+
+    --spacing: 1rem;
+    --spacing-large:2rem;
+    --spacing-small:0.5;
+}

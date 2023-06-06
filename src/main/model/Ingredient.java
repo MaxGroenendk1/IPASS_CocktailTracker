@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ingredient implements Serializable {
-    https://hibernate.org/orm/
+    https://hibernate.org/orm/, niet gebruiken zegt bart.
     private String name;
 
     private int volume;

@@ -1,4 +1,4 @@
-button{
+.btn1{
     font-size: 22px;
     font-family: 'Readex Pro',sans-serif;
     color:white;
@@ -11,6 +11,22 @@ button{
     cursor:pointer;
     margin-bottom: 80px;
 }
-button:hover{
+.btn1:hover{
     background-color: var(--primary-Orange);
+}
+.btn2{
+    font-size: 22px;
+    font-family: 'Readex Pro',sans-serif;
+    color:white;
+    padding:0.5em 1em;
+    margin:0.25em;
+    border-radius:1em;
+    border: none;
+    outline: none;
+    background: var(--primary-Orange);
+    cursor:pointer;
+    margin-bottom: 80px;
+}
+.btn2:hover{
+    background-color: var(--secondary-Orange)
 }

@@ -20,17 +20,8 @@ label{
     margin:0;
     padding:0;
 }
-image.container{
-    justify-content: center;
-}
 .format-container{
     justify-content: center;
-}
-
-.Description{
-    background-color: var(--primary-black);
-    width: 1480px;
-    height: 720px;
 }
 .Options{
     background-color: var(--primary-black);
@@ -38,11 +29,25 @@ image.container{
     height: 720px;
     text-align: center;
 }
+.Options-Container{
+    justify-content: center;
+}
+.Description{
+    background-color: var(--primary-black);
+    width: 1480px;
+    height: 720px;
+}
+.Description-Container{
+    justify-content: center;
+}
+.Description-container-content{
+    display:flex;
+}
 .section_title{
     justify-content: center;
 }
-.Container{
-    justify-content: center;
+.tag-nav{
+
 }
 .tag-list{
     display:flex;
@@ -54,6 +59,6 @@ image.container{
     list-style:none;
 }
 .tag-list li{
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
 }

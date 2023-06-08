@@ -1,0 +1,31 @@
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: var(--secondary-Orange);
+    position:relative;
+}
+.circle::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: white;
+    height: 10px;
+    margin-top: -5px;
+    top: 50%;
+    left: 5px;
+    right: 5px;
+    z-index: 9;
+}
+.circle::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: white;
+    width: 10px;
+    margin-left: -5px;
+    left: 50%;
+    top: 5px;
+    bottom: 5px;
+    z-index: 9;
+}

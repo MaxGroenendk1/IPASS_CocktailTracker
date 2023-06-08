@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create-Action</title>
+    <title>Create-Ingredient</title>
     <link>
     <link rel = "stylesheet" href="styling/managerCreateIngredient.css">
     <link rel="stylesheet"href="styling/layout.css">
@@ -19,7 +19,7 @@
         </div>
         <div class ="input-field">
             <label class ="insert-name">
-                <input type="text" placeholder="Insert Action name...">
+                <input type="text" placeholder="Insert Ingredient name...">
             </label>
         </div>
     </section>
@@ -33,11 +33,12 @@
                     <h2>add an Discription (optional)</h2>
                     <div class ="insert-specs">
                         <label class ="insert-specs-container">
-                            <input type="text" placeholder="Insert amount of grams..."><br>
-                            <input type="text" placeholder="Insert amount of mililiters..."><br>
+                            <input type="text" placeholder="Insert cost per Kilo"><br>
+                            <input type="text" placeholder="Insert cost per Liter"><br>
                         </label>
                     </div>
-                        <select> <option value="snif">Snif</option>
+                        <select> <option value="">Select unit</option>
+                            <option value="snif">Snif</option>
                             <option value="snif">Zest</option>
                             <option value="Branch">Branch</option>
                             <option value="Bunch">Bunch</option>
@@ -56,6 +57,7 @@
                             <option value="Bottle">Bottle</option>
                             <option value="Cube">Cube</option>
                         </select>
+                    <input type="text" placeholder="Insert cost per Unit"><br>
                 </div>
             </div>
         </div>

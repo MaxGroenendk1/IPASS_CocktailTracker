@@ -2,10 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create-Ingredient</title>
-
+    <title>Create-Action</title>
+    <link>
+    <link rel = "stylesheet" href="styling/managerCreateIngredient.css">
+    <link rel="stylesheet"href="styling/layout.css">
+    <link rel="stylesheet"href="styling/button.css">
 </head>
 <body>
+<div class ="view_window">
+    <section class="Home-img">
+        <img src="Pictures/Home_Logo_CocktailTracker.png" alt="CocktailTrackerLogo" width="240" height="240">
+    </section>
+    <section class="info-add">
+        <div class = "circle-field">
+            <div class ="circle"></div><br>
+        </div>
+        <div class ="input-field">
+            <label class ="insert-name">
+                <input type="text" placeholder="Insert Action name...">
+            </label>
+        </div>
+    </section>
+    <section class = "create-Description">
+        <div class="create-new-content">
+            <header>
+                <h2 id="create-title" class="section_title">Create Ingredient</h2>
+            </header>
+            <div class="create-new-content-extra">
+                <div class="flex1">
+                    <h2>add an Discription (optional)</h2>
+                    <div class ="insert-specs">
+                        <label class ="insert-specs-container">
+                            <input type="text" placeholder="Insert amount of grams..."><br>
+                            <input type="text" placeholder="Insert amount of mililiters..."><br>
+                        </label>
+                    </div>
+                        <select> <option value="snif">Snif</option>
+                            <option value="snif">Zest</option>
+                            <option value="Branch">Branch</option>
+                            <option value="Bunch">Bunch</option>
+                            <option value="Dash">Dash</option>
+                            <option value="Teaspoon">Teaspoon</option>
+                            <option value="Tablespoon">Tablespoon</option>
+                            <option value="Servingspoon">Servingspoon</option>
+                            <option value="Part">Part</option>
+                            <option value="Quarter">Quarter</option>
+                            <option value="Half">Half</option>
+                            <option value="Circle slice">Circle slice</option>
+                            <option value="Whole">Whole</option>
+                            <option value="Shot">Shot</option>
+                            <option value="Cup">Cup</option>
+                            <option value="Mug">Mug</option>
+                            <option value="Bottle">Bottle</option>
+                            <option value="Cube">Cube</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+</div>
 
 </body>
 </html>

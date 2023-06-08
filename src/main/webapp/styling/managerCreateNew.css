@@ -1,7 +1,49 @@
+.info-add{
+    width: 1560px;
+    height: 240px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-add-container{
+    align-items: center;
+}
+.options{
+    display:flex;
+}
+.create_title{
+    justify-content: center;
+}
+.create-new-content-extra{
+    background-color: blueviolet;
+    display:flex;
+    flex-wrap:wrap;
+    width:1600px
+}
+.flex1{
+    background-color: green;
+    width:50%;
+}
+.flex2{
+    background-color: chartreuse;
+    width:50%;
+
+}
+.flex3{
+    background-color: yellow;
+    width:50%;
+    height: 100%;
+}
+.flex4{
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+}
+
 .circle {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     background-color: var(--secondary-Orange);
     position:relative;
 }

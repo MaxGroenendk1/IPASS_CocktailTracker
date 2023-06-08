@@ -51,6 +51,24 @@ ul li::before{
     width: 240px;
     heigth: 240px;
 }
+Input[type=text]{
+    width: 500px;
+    box-sizing: border-box;
+    border: var(--secondary-Orange);
+    border-radius: 4px;
+    font-size: 24px;
+    background-color: var(--secondary-Orange);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    border: var(--secondary-Orange);
+    border: 5px solid var(--secondary-Orange);
+}
+Input[type=text]:focus{
+    width: 100%;
+    border: solid var(--secondary-Orange);
+}
 /*section{*/
 /*    background-color: black;*/
 /*}*/

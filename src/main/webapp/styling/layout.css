@@ -12,7 +12,7 @@
 }
 h2{
     font-family: 'Raedex Pro',sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 100;
     text-align: center;
     color: white;
@@ -23,6 +23,20 @@ label{
     font-weight: 100;
     text-align: center;
     color: white;
+    display:block;
+}
+ul {
+    list-style: none;
+    color: white;
+}
+
+ul li::before{
+    content: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 12em;
+    margin-left: -12em;
 }
 /*@media only screen and(max-width: 1440px) and (min-width: 400px){*/
 

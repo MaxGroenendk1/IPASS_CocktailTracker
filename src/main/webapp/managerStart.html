@@ -7,18 +7,19 @@
     <link rel="stylesheet"href="styling/layout.css">
     <link rel="stylesheet"href="styling/button.css">
     <link rel="stylesheet"href="styling/cocktailObjects.css">
+    <script src="test.js"></script>
 </head>
-<body>
+<body onload="loadCocktails()">
 <div class="view_window">
     <section class="Home-img">
-            <img src="Pictures/Home_Logo_CocktailTracker.png" alt="CocktailTrackerLogo" width="240" height="240">
+        <img src="Pictures/Home_Logo_CocktailTracker.png" alt="CocktailTrackerLogo" width="240" height="240">
     </section>
 
     <section class="Search">
         <div class = "container">
             <form class = "format">
                 <img src="Pictures/SearchLogo.png" alt="magnifying glass" width="80" height="80">
-                    <input type="text" placeholder="Find cocktail...">
+                <input type="text" placeholder="Find cocktail...">
                 <button class ="btn1" type="submit">Track</button>
             </form>
         </div>
@@ -38,26 +39,27 @@
     </section>
 
     <section class="Objects">
-            <header>
-                <h2 id="objects-title" class="section_title">Objects</h2>
-            </header>
-        <div class="card-Objects">
-            <div class="card">
-                <img src="Pictures/cocktail_hideandfizz.png" alt="hideandfizz" width="160" height="160">
-                <div class = "specifics">
-                    <h4><b>hide-and-fizz</b></h4>
-                    <p>tags</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="Pictures/cocktail-moscowmule.png" alt="moscowmule" width="160" height="160">
-                <div class = "specifics">
-                    <h4><b>moscow-mule</b></h4>
-                    <p>tags</p>
-                </div>
-            </div>
+        <header>
+            <h2 id="objects-title" class="section_title">Objects</h2>
+        </header>
+        <div id="cocktails">
+
         </div>
+
+        <template id="cocktail">
+            <div class="card">
+                <img src="" alt="" width="160" height="160">
+                <div class="specifics">
+                    <h4><b></b></h4>
+                    <p></p>
+                </div>
+            </div>
+        </template>
+
+
     </section>
 </div>
+
 </body>
 </html>
+

@@ -1,0 +1,59 @@
+label{
+    font-family: 'Raedex Pro',sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+.Home-img{
+    background-color:var(--primary-black);
+    width: 240px;
+    heigth: 240px;
+}
+.Cocktailspecs{
+    background-color: var(--primary-black);
+    justify-content: center;
+    width: 1560px;
+    height: 240px;
+    display:flex;
+    gap:1rem;
+    margin:0;
+    padding:0;
+}
+image.container{
+    justify-content: center;
+}
+.format-container{
+    justify-content: center;
+}
+
+.Description{
+    background-color: var(--primary-black);
+    width: 1480px;
+    height: 720px;
+}
+.Options{
+    background-color: var(--primary-black);
+    width:360px;
+    height: 720px;
+    text-align: center;
+}
+.section_title{
+    justify-content: center;
+}
+.Container{
+    justify-content: center;
+}
+.tag-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.tag-list li{
+    flex-grow: 0;
+    flex-shrink: 1;
+}

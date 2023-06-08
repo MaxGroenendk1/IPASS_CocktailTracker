@@ -1,0 +1,16 @@
+button{
+    font-size: 22px;
+    font-family: 'Readex Pro',sans-serif;
+    color:white;
+    padding:0.5em 1em;
+    margin:0.25em;
+    border-radius:1em;
+    border: none;
+    outline: none;
+    background: var(--secondary-Orange);
+    cursor:pointer;
+    margin-bottom: 80px;
+}
+button:hover{
+    background-color: var(--primary-Orange);
+}

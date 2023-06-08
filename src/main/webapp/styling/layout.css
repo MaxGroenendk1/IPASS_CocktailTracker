@@ -1,0 +1,32 @@
+:root{
+    --primary-black:#000000;
+    --secondary-black:232931;
+    --primary-Orange:#ffa500;
+    --secondary-Orange:#f6a596;
+    --primary-text-color:#fff;
+
+    --spacing: 1rem;
+    --spacing-large:2rem;
+    --spacing-small:0.5;
+
+}
+h2{
+    font-family: 'Raedex Pro',sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+/*@media only screen and(max-width: 1440px) and (min-width: 400px){*/
+
+/*}*/
+.view_window {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.Home-img{
+    background-color:var(--primary-black);
+    width: 240px;
+    heigth: 240px;
+}

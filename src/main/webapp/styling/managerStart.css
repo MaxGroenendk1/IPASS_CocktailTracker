@@ -1,0 +1,40 @@
+.section{
+    display:flex;
+}
+
+.Home-img{
+    background-color:var(--primary-black);
+    width: 240px;
+    heigth: 240px;
+}
+
+.Search{
+    background-color: var(--primary-black);
+    width: 1560px;
+    height: 240px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Search.container{
+    background-color: var(--primary-black);
+    text-align:center;
+    right:100px;
+}
+
+.Options{
+    background-color: var(--primary-black);
+    width:360px;
+    height: 720px;
+    text-align: center;
+}
+/*.Options.container{*/
+
+/*}*/
+.Objects{
+    background-color: var(--primary-black);
+    width:1520px;
+    height:720px;
+}
+
+
